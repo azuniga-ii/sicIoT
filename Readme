@@ -1,0 +1,29 @@
+This is the prototype of the compiler described in the paper:
+
+SICIoT: A Simple Instruction Compiler for the Internet of Things
+
+The details of its installation and use are described in Section 4 of
+the paper.
+
+
+To quick obtain the binary file (sicIoT) corresponding to the compiler,
+please execute: make
+
+
+This code is released under the terms of the 3-clause BSD-license.
+
+It contains the following files:
+
+lex.l  Flex lexicon specification
+grm.yy Bison grammar specification
+node.h   Derivation tree nodes declaration file
+node.cc  Derivation tree nodes implementation file
+tbder.h  Tree Builder pattern declaration file
+tbder.cc Tree Builder pattern implementation file
+tvisitor.h Tree Visitor pattern declaration file
+tvisitor.cc Tree Visitor pattern implementation file
+sicIoT.cc   Compiler driver (entry point)
+tests Supported programs
+Makefile Contains the rules to compile this project
+LICENSE  License file
+
